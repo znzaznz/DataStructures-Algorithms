@@ -1,0 +1,26 @@
+数据结构是什么？  
+栈 队列 链表  
+集合 字典  
+树 堆 图  
+如何刷LeetCode?
+如何在题库中搜题？
+难度 状态 列表 标签  
+时间复杂度计算： 1 log2n n n^2
+
+let a = 1 -> 1  
+while(i < n) i * 2 -> log2n
+for(let i = 0;i < n;i++)  -> n  
+for{for} -> n^2  
+
+O(1) + O(n) = O(n)
+
+空间复杂度：O(1) O(n) ...
+算法占用的空间大小 
+let a = 1 -> O(1)  
+for{list.push()} -> O(n)  
+for{list.push([])for{list.push([[]])}} -> O(n^2)  
+
+栈是什么？ 后进先出的数据结构 push pop 用Array可以实现这个功能  
+如何在js中使用栈 stack = [] 
+入栈 stack.push(1) stack.push(2) 
+出栈 stack.pop(1) 移除数组的最后一项并且返回
